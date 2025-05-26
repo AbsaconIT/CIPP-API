@@ -37,5 +37,5 @@ jobs:
           app-name: 'cippi43jt-usertasks'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4BD4B7CEE3894FDB8B81831FAE38B9E7 }}
+         # publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4BD4B7CEE3894FDB8B81831FAE38B9E7 }}
           
